@@ -1,0 +1,164 @@
+:root {
+    --ForestGreen: #228B22;
+    --Green: #008000;
+    --grey11: #1C1C1C;
+    --Gray: #808080;
+    --grey31: #4F4F4F;
+    --Gainsboro: #DCDCDC;
+    --WhiteSmoke: #F5F5F5;
+}
+
+body {
+     overflow-x: hidden; 
+    }
+
+
+p {
+    color: var(--grey31);
+}
+/* Navbar */
+
+
+.fa-store {
+    color: var(--ForestGreen);
+}
+
+.navbar .navbar-brand {
+    font-size: 1.25rem;
+    font-weight: bold;
+
+}
+
+.nav-item .botao-purchase {
+    background-color: var(--ForestGreen);
+    color: white;
+    font-size: 18px;
+}
+
+#nav-suporte {
+    color: var(--grey11);
+    font-size: 18px;
+}
+
+#nav-documentacao {
+    color: var(--grey11);
+    font-size: 18px;
+}
+
+.freshcart-template {
+    margin-top: 100px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.freshcart-template p {
+    font-size: 18px;
+}
+
+
+.img-carrosel {
+    max-width: 900px!important;
+    margin: auto!important;
+    display: block!important;
+
+}
+
+.home-pages {
+    margin-top: 50px;
+}
+
+.cabecalho-home-pages {
+    text-align: left;
+    width: 60%;
+}
+
+.home-pages-row {
+    border: none;
+}
+
+.cabecalho-features {
+    width: 60%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card-group {
+    display: flex;
+    justify-content: center;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.titulos-h3 {
+    font-size: 1.50rem;
+    
+}
+
+.imagem-feature {
+    max-width:230px ;
+
+}
+
+.div-imagem-feature {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 0 30px 0;
+}
+
+.div-im {
+    display: flex;
+    justify-content: center;
+}
+
+.features {
+    margin-top: 100px;
+}
+
+.cabecalho-shop-pages {
+    width: 60%;
+    padding-bottom: 30px;
+}
+
+
+.cartas-shop-pages {
+    border: none;
+}
+
+.cabecalho-multi-vendors {
+    width: 60%;
+    padding-bottom: 30px;
+    
+}
+
+.cartas-multi-vendors {
+    border: none;
+}
+
+.cabecalho-awesome-features {
+    width: 60%;
+    padding-bottom: 30px;
+}
+
+.awesome-feature-icon {
+    color: var(--ForestGreen);
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+footer {
+    background-color: var(--WhiteSmoke)
+}
+
+.div-footer {
+    text-align: center;
+}
+
+.botao-footer {
+    background-color: var(--ForestGreen);
+    color: white;
+    font-size: 18px;
+    margin: 20px 0 60px 0;
+}
